@@ -2,9 +2,95 @@
   text-align: center;
 }
 
+.MakeAdjustance {
+  float: left;
+  
+}
+
+.PositionLeft {
+  margin-left: 33px;
+}
+.Header {
+  position: fixed;
+  width: 100%;
+  margin-left: 401px;
+  margin-top: 32px;
+  text-align: left;
+  font: normal normal normal 15px/23px Poppins;
+  letter-spacing: 0px;
+  color: #155CC7;
+  opacity: 1;
+}
+
+.Msg-logo {
+  margin-left: 151px;
+  height: 21px;
+  text-align: left;
+  font: normal normal 300 15px/23px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.Phone-logo {
+  margin-left: 18.5px;
+  width: 17px;
+  height: 19px; 
+  margin-top: 3px;
+}
+.Number {
+  margin-left: 1.5px;
+  color:darkgreen
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 72px;
+  background: #D4DEEF 0% 0% no-repeat padding-box;
+  opacity: 0.76;
+}
+
+.FooterSection {
+  width:25%;
+  float: left;
+}
+
+.FooterSectionText {
+  margin-top:5%;
+  margin-left: 20%;
+  height: 20px;
+  text-align: left;
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #607698;
+  opacity: 1;
+}
+
+.FooterSubText {
+  font: normal normal 300 12px/18px Poppins;
+  letter-spacing: 0px;
+  color: #607698;
+  opacity: 1;
+}
+
+.Footer-logo {
+  width: 28px;
+  height: 41px;
+  margin-right: 5%;
+  float: left;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.BodyData {
+  margin : 30% 0 30% 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +121,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.WorldMap {
+  float: left;
+  width: 55%;
+  margin-top: 10%;
+}
+
+.Peacock {
+  float: left;
+  width: 45%;
+  margin-top: 15%;
 }
